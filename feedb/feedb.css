@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+}
+section{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background: url(../images/bg0.jpg);
+    background-size:cover;
+    background-position: center;
+    filter: blur(1px) brightness(30%);
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 360px;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 8px rgba(56, 55, 55, 0.705);
+    opacity: 0.6;
+}
+.container form{
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+}
+form h1{
+    padding:10px 0;
+}
+form .id{
+    position: relative;
+}
+form input{
+    width:100%;
+    height:50px;
+    margin: 4px 0;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717d8;
+    padding: 0 15px;
+    padding-right: 4%;
+    font-size: 20px;
+}
+form textarea{
+    width: 100%;
+    padding: 5px 15px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717d8;
+    font-size: 20px;
+    margin: 4px 0;
+}
+form button{
+    margin-top: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background: #5948e0;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+} 
+form input:focus,
+form textarea:focus{
+    border: 1px solid #5948e0;
+    color: rgb(241, 237, 237);
+    transition: all 0.3s ease;
+}
+form input:focus::placeholder,
+form textarea:focus::placeholder{
+   padding-left: 4px;
+   color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+.navbar{
+    height: 12%;
+    display:flex;
+    align-items: center;
+}
+.logo{
+    width: 340px;
+    cursor:pointer;
+    margin-top: 25px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    text-shadow: 0 0 5px rgb(156, 154, 154);
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+}

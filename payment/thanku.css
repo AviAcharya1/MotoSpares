@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:url(../images/bg11.jpg);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+  background-position: center;
+  background-size: cover;
+}
+.navbar{
+  background-color: black;
+  height: 100px;
+  display:flex;
+  align-items: center;
+}
+.logo{
+  width: 380px;
+  cursor:pointer;
+  margin-top: 5px;
+  margin-left: 37%;
+  
+}
+nav{
+  flex:1;
+  text-align: right;
+  margin-right: 8%;
+}
+    
+
+.wrapper{
+  background: rgb(255, 255, 255);
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 140px;
+  margin-top:8%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.wrapper h3{
+  font-size: 35px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: rgb(255, 255, 255);
+  margin: 5px;
+  margin-bottom: 30px;
+  width: 900px;
+  line-height: 20px;
+  color: #000000;  
+  position: relative;
+}
+
+
+
+.team .team_member p{
+  color: rgb(0, 0, 0);
+  margin: 12px 0;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+
+.btn {
+  background-color: #fff;
+  color:#000;
+  padding: 1rem 2rem;
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: 43%;
+}
