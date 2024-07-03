@@ -23,21 +23,21 @@ CSS, PHP, MySQL.
 ## Screenshots
 
 - First Page
-![Screenshot](./assets/home.png)
+![Screenshot](./assets/homepage.png)
 
 ![Screenshot](./assets/home1.png)
 
 - Register Page
-![Screenshot](./assets/reggisterpage.png.png)
+![Screenshot](./assets/reggisterpage.png)
 
 - Item Detail
-![Screenshot](./assets/itemDetails.png.png)
+![Screenshot](./assets/itemDetails.png)
 
 - Address and Payment
-![Screenshot](./assets/addressPayment.png.png)
+![Screenshot](./assets/addressPayment.png)
 
 - Thankyou Page
-![Screenshot](./assets/ThankyouPage.png.png)
+![Screenshot](./assets/ThankyouPage.png)
 
 -Feedback Page
 ![Screenshot](./assets/feedBack.png)
