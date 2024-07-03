@@ -4,7 +4,13 @@ Built a tool to buy spare parts of different motorcycle’s online by using HTML
 CSS, PHP, MySQL.
 
 
-## Roadmap
+## Instruction to run the project: 
+
+```bash 
+git clone https://github.com/AviAcharya1/MotoSpares.git
+
+```
+## To run in local device 
 
 - Install XAMPP
 
@@ -19,6 +25,8 @@ CSS, PHP, MySQL.
 - Open any browser
 
 - URL:- localhost/index.php
+
+## Project is live at :
 
 ## Screenshots
 
