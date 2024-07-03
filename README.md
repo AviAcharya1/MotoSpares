@@ -27,7 +27,7 @@ git clone https://github.com/AviAcharya1/MotoSpares.git
 - URL:- localhost/index.php
 
 ## Project is live at :
-
+ - https://aviacharya1.github.io/MotoSpares/
 ## Screenshots
 
 - First Page
